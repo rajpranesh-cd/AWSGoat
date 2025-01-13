@@ -1,0 +1,7 @@
+# custom-updater-config.yml
+version: 2
+updates:
+  - package-ecosystem: "npm_and_yarn" # Specify the ecosystem (e.g., npm or yarn)
+    directory: "/"                    # Root directory of your project
+    target-branch: "master"          # Feature branch to scan
+    open-pull-requests-limit: 0       # Do not open PRs
